@@ -187,7 +187,26 @@ class CB_Core_Heading extends Widget_Base
 				'tab' => Controls_Manager::TAB_STYLE,
 			]
 		);
-
+		$this->add_control(
+		 'heading_color',
+		 [
+		   'label'       => esc_html__( 'Heading Color', 'Text-domain' ),
+		   'type'     => \Elementor\Controls_Manager::COLOR,
+		   'selectors' => [
+		   '{{WRAPPER}} .cb-core-heading-wrap .title' => 'color: {{VALUE}}',
+		   ],
+		 ]
+		);
+		$this->add_control(
+		 'content_color',
+		 [
+		   'label'       => esc_html__( 'Heading Color', 'Text-domain' ),
+		   'type'     => \Elementor\Controls_Manager::COLOR,
+		   'selectors' => [
+		   '{{WRAPPER}} .cb-core-heading-wrap p' => 'color: {{VALUE}}',
+		   ],
+		 ]
+		);
 		$this->end_controls_section();
 	}
 
