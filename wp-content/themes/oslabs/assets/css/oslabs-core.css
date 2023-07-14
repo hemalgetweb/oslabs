@@ -2023,6 +2023,14 @@ div.oslabs-banner-right img {
   }
 }
 
+@media (max-width: 767px) {
+  .oslabs-banner-area {
+    text-align: center;
+  }
+  .oslabs-banner-download-ratings ul {
+    margin: 0 auto;
+  }
+}
 .oslabs-section-title .title {
   color: var(--dark-colors-dark-1, #0C1717);
   font-size: 48px;

@@ -143,3 +143,11 @@ div.oslabs-banner-right {
         padding-top: 0;
     }
 }
+@media (max-width: 767px) {
+    .oslabs-banner-area {
+        text-align: center;
+    }
+    .oslabs-banner-download-ratings ul {
+        margin: 0 auto;
+    }
+}
