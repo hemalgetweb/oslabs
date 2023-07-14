@@ -183,3 +183,14 @@
         padding-left: 0;
     }
 }
+@media (max-width: 575px) {
+    .oslabs-faq-main-accordion-114 .accordion-item {
+        padding-left: 25px;
+    }
+    .oslabs-faq-main-accordion-114 .accordion-collapse::after {
+        left: -22px;
+    }
+    .oslabs-faq-main-accordion-114 .accordion-item .accordion-button::before {
+        left: -24px;
+    }
+}
