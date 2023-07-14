@@ -66,7 +66,7 @@ data-background="<?php echo get_template_directory_uri(); ?>/assets/img/bg/bg-te
                 </div>
                 <div class="oslabs-testimonial-box-author-114">
                 <div class="row align-items-center">
-                    <div class="col-xxl-9">
+                    <div class="col-9">
                     <div class="content">
                         <?php echo wp_get_attachment_image( $slide['author_image']['id'], 'thumbnail' ); ?>
                         <?php if(!empty($slide['author_name'])) : ?>
@@ -74,7 +74,7 @@ data-background="<?php echo get_template_directory_uri(); ?>/assets/img/bg/bg-te
                         <?php endif; ?>
                     </div>
                     </div>
-                    <div class="col-xxl-3">
+                    <div class="col-3">
                     <div class="oslabs-testimonial-user-quote-114 text-end">
                         <img
                         src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonial/quote.svg"
