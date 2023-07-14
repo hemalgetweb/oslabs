@@ -1028,7 +1028,7 @@ function oslabs_breadcrumb_func()
     }
 }
 
-add_action('oslabs_before_main_content', 'oslabs_breadcrumb_func');
+// add_action('oslabs_before_main_content', 'oslabs_breadcrumb_func');
 
 // oslabs_search_form
 function oslabs_search_form()
