@@ -6,11 +6,11 @@
         <div class="oslabs-service-left-114 mb-30 mb-md-0">
         <div class="oslabs-section-title mb-50">
             <?php if(!empty($settings['section_title'])) : ?>
-                <h3 class="title"><?php echo esc_html($settings['section_title']); ?></h3>
+                <h3 class="title"><?php echo wp_kses_post($settings['section_title']); ?></h3>
             <?php endif; ?>
             <?php if(!empty($settings['section_excerpt'])) : ?>
             <p>
-                <?php echo esc_html($settings['section_excerpt']); ?>
+                <?php echo wp_kses_post($settings['section_excerpt']); ?>
             </p>
             <?php endif; ?>
         </div>
