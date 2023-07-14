@@ -2271,6 +2271,11 @@ div.oslabs-banner-right img {
   }
 }
 
+@media (max-width: 575px) {
+  .oslabs-feature-list-single-114 .count {
+    padding-right: 25px;
+  }
+}
 .oslabs-testimonial-pos-right-full-width-114 {
   max-width: 81.2%;
   margin-left: auto;
