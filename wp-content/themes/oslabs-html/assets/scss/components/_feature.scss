@@ -1,0 +1,130 @@
+@use '../abstracts/variables' as *;
+.oslabs-feature-card-with-image-single-114 .title {
+    color: var(--dark-colors-dark-1, #0C1717);
+    font-family: Kanit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+};
+
+.oslabs-feature-card-with-image-single-114 p {
+    color: var(--dark-colors-dark-3, #536666);
+
+/* Paragraph/P3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 46px;
+}
+
+.oslabs-transparent-border-btn {
+    height: 52px;
+    border-radius: 100px;
+    border: 1px solid var(--dark-colors-dark-5, #B6C5C5);
+    display: inline-block;
+    padding: 0 36px;
+    color: var(--dark-colors-dark-1, #0C1717);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    text-decoration: none;
+}
+
+.oslabs-feature-list-single-114.pb-40 .count span {
+    color: var(--white, #FFF);
+    font-family: Kanit;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+}
+
+.oslabs-feature-list-single-114.pb-40 .count {
+    float: left;
+}
+
+.oslabs-feature-list-single-114.pb-40 .title {
+    color: var(--white, #FFF);
+
+/* Headline/H4 */
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.oslabs-feature-list-single-114.pb-40 p {
+    color: #D4D3DE;
+
+/* Paragraph/P3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.oslabs-feature-list-single-114.pb-40 .content {
+    overflow: hidden;
+}
+.oslabs-service-right-box-114 .thumb {
+    @media #{$xl, $lg} {
+        padding: 0 10px;
+        padding-top: 20px;
+    }
+}
+.oslabs-service-right-box-114 .thumb.has-shadow {
+    @media #{$xl, $lg, $md} {
+        padding: 40px 40px;
+    }
+}
+.service-area .oslabs-section-title br {
+    @media #{$md, $lg} {
+        display: none;
+    }
+}
+.oslabs-service-right-114.style-2 .thumb {
+    @media #{$md} {
+        padding: 0 10px;
+    }
+}
+.oslabs-service-right-box-114 .thumb {
+    @media #{$md} {
+        padding: 0 10px;
+    }
+}
+.content.pl-40, .content.pr-40 {
+    @media #{$md} {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.feature-list-area .oslabs-section-title p br {
+    @media #{$md} {
+        display: none;
+    }
+}
+.oslabs-feature-card-with-image-single-114 .content {
+    @media #{$xs} {
+        padding: 0 0;
+    }
+}
+.oslabs-feature-card-with-image-single-114 .thumb {
+    @media #{$xs} {
+            margin-bottom: 30px;
+            padding-bottom: 40px;
+            padding-top: 30px;
+    }
+}
+.oslabs-section-title p br {
+    @media #{$sm} {
+        display: none;
+    }
+}

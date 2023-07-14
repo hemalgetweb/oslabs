@@ -1,0 +1,96 @@
+@use '../abstracts/variables' as *;
+.oslabs-section-title .title {
+    color: var(--dark-colors-dark-1, #0C1717);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    margin-bottom: 16px;
+    @media #{$xs} {
+        font-size: 40px;
+        line-height: 1.4;
+    }
+}
+
+.oslabs-section-title p {
+    color: var(--dark-colors-dark-2, #384B4B);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+.oslabs-service-box-wide-114 {
+    border-radius: 16px;
+    background: var(--primary-white, #FFF);
+    box-shadow: 5px 10px 60px 0px rgba(12, 23, 23, 0.10);
+    padding: 10px;
+    padding-top: 0;
+    & img {
+        margin: 0;
+    }
+}
+.oslabs-service-box-wide-114 .title {
+    color: var(--dark-colors-dark-1, #0C1717);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+
+.oslabs-service-box-wide-114 p {
+    color: var(--dark-colors-dark-3, #536666);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.oslabs-service-box-wide-114 .content {
+    padding: 21px 30px;
+    padding-bottom: 30px;
+    @media #{$xs} {
+        padding: 21px 19px;
+    } 
+}
+.oslabs-service-right-box-114 {
+    border-radius: 16px;
+    background: var(--primary-white, #FFF);
+    box-shadow: 5px 10px 60px 0px rgba(12, 23, 23, 0.10);
+}
+.oslabs-service-right-box-114 .content {
+    padding: 30px 40px;
+    padding-bottom: 0;
+}
+.oslabs-service-right-box-114 .title {
+    color: var(--dark-colors-dark-1, #0C1717);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+
+.oslabs-service-right-box-114 {
+    text-align: center;
+}
+
+.oslabs-service-right-box-114 p {
+    margin-bottom: 0;
+}
+.oslabs-service-right-114.style-2 .content {
+    padding-bottom: 30px;
+}
+.oslabs-service-right-114.style-2 .oslabs-service-right-box-114 {
+    padding-bottom: 10px;
+}
+.oslabs-service-right-box-114 .has-shadow img {
+    box-shadow: 5px 10px 60px 0px rgba(12, 23, 23, 0.10);
+}
+.oslabs-service-right-box-114 .has-shadow {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-top: 38px;
+}
+.oslabs-service-right-114.style-2 .oslabs-service-right-box-114 .thumb {
+    @media #{$xs} {
+        padding: 0 10px;
+    }
+}

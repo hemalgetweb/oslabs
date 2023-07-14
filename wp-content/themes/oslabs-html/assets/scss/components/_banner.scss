@@ -1,0 +1,148 @@
+@use '../abstracts/variables' as *;
+div.oslabs-banner-right img {
+    max-width: inherit;
+  }
+.oslabs-banner-left {
+    & p {
+        color: #D4D3DE;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        margin-bottom: 45px;
+    }
+    & .oslabs-banner-left-title {
+        color: var(--white, #FFF);
+        font-size: 60px;
+        font-weight: 300;
+        line-height: 70px;
+        @media #{$xs} {
+            font-size: 37px;
+            line-height: 1.4;
+        } 
+    }
+}
+.oslabs-banner-action-links a:not(:last-child) {
+    margin-right: 15px;
+    display: inline-block;
+    @media #{$xs} {
+        margin-bottom: 15px;
+    }
+}
+.oslabs-banner-download-ratings {
+    & ul {
+        overflow: hidden;
+        display: flex;
+        width: fit-content;
+        grid-gap: 0 70px;
+        @media #{$xs} {
+            flex-direction: column;
+            grid-gap: 0;
+        }
+        & li {
+            width: 50%;
+            float: left;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            position: relative;
+            @media #{$xs} {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            &:first-child::after {
+                position: absolute;
+                right: -40px;
+                top: 0;
+                width: 1px;
+                content: "";
+                opacity: 0.20000000298023224;
+                background: #FFF;
+                height: 100%;
+                @media #{$xs} {
+                    display: none;
+                }
+            }
+            & .icon {
+                margin-right: 24px;
+            }
+            & .content {
+                & .title {
+                    color: var(--white, #FFF);
+                    font-family: Kanit;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px;
+                    margin-bottom: 3px;
+                }
+                & p {
+                    margin-bottom: 0;
+                    color: #D4D3DE;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+div.oslabs-banner-right {
+    & img {
+        max-width: inherit;
+        @media #{$xs} {
+            max-width: 100%;
+        }
+    }
+}
+.oslabs-banner-left-bottom-box.has-pos {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    @media #{$md, $xs} {
+        position: static;
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+    div.oslabs-banner-right img {
+        max-width: 130%;
+        transform: translateY(110px);
+    }
+    .oslabs-banner-left {
+        padding-bottom: 240px;
+    }
+    .oslabs-banner-area.pt-130 {
+        padding-top: 50px;
+        @media #{$xs} {
+            padding-top: 30px;
+        }
+    }
+}
+.oslabs-banner-area.pt-130 {
+    @media #{$xs} {
+        padding-top: 30px;
+    }
+}
+.oslabs-banner-area {
+    @media #{$xl} {
+        overflow: hidden;
+        padding-top: 80px;
+    }
+}
+.oslabs-banner-area.pt-130 {
+    @media #{$lg, $md} {
+        padding-top: 0;
+    }
+}
+.oslabs-banner-left.pt-90 {
+    @media #{$lg} {
+        padding-bottom: 190px;
+    }
+    @media #{$xs} {
+        padding-top: 0;
+    }
+}

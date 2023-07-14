@@ -1,0 +1,185 @@
+@use '../abstracts/variables' as *;
+.oslabs-faq-main-accordion-114 button.accordion-button {
+    color: var(--dark-colors-dark-1, #0C1717);
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    box-shadow: none;
+    line-height: 34px;
+    margin-bottom: 12px;
+    background: transparent;
+    padding: 0;
+}
+.oslabs-faq-main-accordion-114 .accordion-item {
+    border: 0;
+}
+
+.oslabs-faq-main-accordion-114 .accordion-body {
+    padding: 0;
+}
+.oslabs-faq-main-accordion-114 .content p {
+    color: var(--dark-colors-dark-2, #384B4B);
+
+/* Paragraph/P3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.oslabs-faq-main-accordion-114 .content ul li {
+    list-style: none;
+    margin-bottom: 12px;
+    color: var(--dark-colors-dark-2, #384B4B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.oslabs-faq-main-accordion-114 .content ul li img {
+    margin-right: 14px;
+}
+.oslabs-faq-main-accordion-114 .accordion-button::after {
+    content: "+";
+    background-image: none;
+    line-height: 20px;
+    text-align: right;
+    font-size: 33px;
+    font-weight: 300;
+}
+.oslabs-faq-main-accordion-114 .accordion-button:hover, .oslabs-faq-main-accordion-114 .accordion-button {
+    z-index: inherit !important;
+}
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    transform: rotate(0);
+    background-image: none;
+}
+.oslabs-faq-main-accordion-114 .accordion-header {
+    border-top: 1px solid #E7E8E8;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+
+.oslabs-faq-main-accordion-114 .accordion-item:first-child .accordion-header {
+    padding-top: 0;
+    border-top: 0;
+}
+.oslabs-faq-main-accordion-114 .content {
+    padding-bottom: 30px;
+}
+.oslabs-faq-main-accordion-114 .accordion-item {
+    padding-left: 45px;
+    position: relative;
+}
+.oslabs-faq-main-accordion-114 .accordion-collapse {
+    position: relative;
+}
+.oslabs-faq-main-accordion-114 .accordion-collapse::after {
+    position: absolute;
+    left: -42px;
+    bottom: -30px;
+    height: 132%;
+    width: 3px;
+    background: #6ACFE5;
+    content: "";
+    z-index: 9;
+    @media #{$xs} {
+        height: 125%;
+    }
+}
+.oslabs-faq-main-accordion-114 .accordion-item::after {
+    position: absolute;
+    left: 3px;
+    top: 0px;
+    height: 100%;
+    width: 3px;
+    background: #E1EBEB;
+    content: "";
+    @media #{$sm} {
+        height: 130%;
+    }
+}
+.oslabs-faq-main-accordion-114 .accordion-item .accordion-button::before {
+    content: "";
+    position: absolute;
+    left: -44px;
+    top: 10px;
+    width: 8px;
+    @media #{$xxl, $lg, $md} {
+        top: 0;
+    }
+    
+/* Drop Shadow */
+    height: 8px;
+    border-radius: 50%;
+    outline: 3px solid var(--dark-colors-dark-6, #E1EBEB);
+    display: inline-block;
+    background: #fff;
+    z-index: 999;
+}
+.oslabs-faq-main-accordion-114 .accordion-item .accordion-button[aria-expanded="true"]::before {
+    outline-color: #6ACFE5;
+    outline-width: 5px
+}
+.oslabs-faq-main-accordion-114 .accordion-item:last-child .content {
+    padding-bottom: 0;
+}
+.oslabs-about-team-right-content-114 .title {
+    color: var(--white, #FFF);
+
+/* Headline/H2 */
+    font-family: Kanit;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+
+.oslabs-about-team-right-content-114 .content p {
+    color: #D4D3DE;
+
+/* Paragraph/P2 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 12px;
+}
+
+.oslabs-white-transparent-border-btn {
+    height: 52px;
+    display: inline-block;
+    border-radius: 100px;
+    border: 1px solid var(--dark-colors-dark-5, #B6C5C5);
+    line-height: 52px;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 36px;
+    margin-top: 35px;
+}
+
+.oslabs-white-transparent-border-btn:hover {
+    background: #fff;
+    border-color: transparent;
+    color: #080a16;
+}
+.faq-area .oslabs-section-title p br {
+    @media #{$md} {
+        display: none;
+    }
+}
+.oslabs-about-team-right-content-114.pl-35 {
+    @media #{$xs} {
+        padding-left: 0;
+    }
+}

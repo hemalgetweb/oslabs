@@ -1,0 +1,108 @@
+@use "../abstracts/variables" as *;
+.header-area {
+  & .olabs-header-right {
+    & nav {
+      display: inline-block;
+      & ul {
+        & li {
+          list-style: none;
+          display: inline-block;
+          margin-right: 36px;
+          @media #{$lg} {
+            margin-right: 16px;
+          }
+          & a {
+            text-decoration: none;
+            color: #d4d3de;
+            font-family: Kanit;
+            font-size: 17px;
+            font-weight: 400;
+            padding: 37px 0;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+header.header-area {
+  @media #{$md, $lg, $md, $xs} {
+    padding: 40px 0;
+  }
+}
+header.header-area {
+  padding: 40px 0;
+}
+
+button.oslabs-bar-btn-114 {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+button.oslabs-bar-btn-114:hover {
+  color: #361b3a;
+  background: #fff;
+  border-color: transparent;
+}
+section.oslabs-mobile-menu-114 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: #fff;
+  padding: 30px;
+  max-width: 320px;
+}
+
+.oslabs-mobile-icon-cross button {
+  position: absolute;
+  right: 30px;
+  top: 35px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  font-size: 19px;
+  border: 1px solid #222;
+  border-radius: 50px;
+}
+
+.oslabs-mobile-icon-cross button:hover {
+  background: #222;
+  color: #fff;
+  border-color: transparent;
+}
+.olabs-header-right nav#mobile-menu {
+  display: inline-block !important;
+}
+
+.oslabs-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  &.visible {
+    opacity: 0.6;
+    visibility: visible;
+  }
+}
+
+.oslabs-mobile-menu-114 {
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+}

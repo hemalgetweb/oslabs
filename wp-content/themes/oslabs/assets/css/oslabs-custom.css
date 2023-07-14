@@ -1,0 +1,24 @@
+.admin-bar section.oslabs-mobile-menu-114 {
+  top: 45px;
+}
+
+.header-transparent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 9;
+}
+.admin-bar header.header-area.header-transparent {
+  top: 22px;
+}
+
+div.oslabs-banner-download-ratings ul li img {
+  margin-bottom: 0;
+}
+.oslabs-testimonial-pos-right-full-width-114 .swiper-wrapper {
+  padding-bottom: 80px;
+}
+div.oslabs-testimonial-box-author-114 img {
+  margin-bottom: 0;
+}
