@@ -1860,6 +1860,10 @@ section.oslabs-mobile-menu-114 {
   visibility: visible;
 }
 
+div.oslabs-banner-right img {
+  max-width: inherit;
+}
+
 .oslabs-banner-left p {
   color: #D4D3DE;
   font-family: Inter;
@@ -1955,11 +1959,11 @@ section.oslabs-mobile-menu-114 {
   line-height: 24px;
 }
 
-.oslabs-banner-right img {
+div.oslabs-banner-right img {
   max-width: inherit;
 }
 @media (max-width: 767px) {
-  .oslabs-banner-right img {
+  div.oslabs-banner-right img {
     max-width: 100%;
   }
 }
@@ -1977,7 +1981,7 @@ section.oslabs-mobile-menu-114 {
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
-  .oslabs-banner-right img {
+  div.oslabs-banner-right img {
     max-width: 130%;
     transform: translateY(110px);
   }

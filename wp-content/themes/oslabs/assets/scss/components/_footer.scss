@@ -1,8 +1,9 @@
 @use '../abstracts/variables' as *;
-.oslabs-footer-action-images-114 img {
+div.oslabs-footer-action-images-114 img {
     border-radius: 100px;
     background: var(--white, #FFF);
-    box-shadow: 10px 20px 60px 0px rgba(13, 30, 28, 0.10);
+    box-shadow: 10px 20px 60px 0px rgba(13, 30, 28, 0.1);
+    margin: 0
 }
 .oslabs-footer-main-114 p {
     color: var(--dark-colors-dark-1, #0C1717);
