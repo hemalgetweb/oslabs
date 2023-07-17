@@ -22,3 +22,8 @@ div.oslabs-banner-download-ratings ul li img {
 div.oslabs-testimonial-box-author-114 img {
   margin-bottom: 0;
 }
+@media (max-width: 575px) {
+  .mobileMenu .navbar-nav .menu-item > ul.dropdown-menus {
+      max-width: 300px;
+  }
+}
